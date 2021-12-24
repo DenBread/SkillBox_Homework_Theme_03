@@ -18,8 +18,8 @@ namespace Homework_Theme_03
         private bool statusWin = false;
         public void Start()
         {
-            //gameNumber = RandomNumbers();
-            gameNumber = 4;
+            gameNumber = RandomNumbers();
+            //gameNumber = 4;
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Давайте познакомимся! Я игра <<Угадай число>>. А как тебя зовут?");
