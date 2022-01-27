@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -70,8 +71,11 @@ namespace Homework_Theme_03
             //
             // User2 победил!
 
-            Game game = new Game();
-            game.Start();
+            //Game game = new Game();
+            //game.Start();
+
+            GameTest gameTest = new GameTest();
+            gameTest.Start();
             Console.ReadLine();
         }
     }
